@@ -1,0 +1,364 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter' !important;
+    background-color: black !important;
+    color: white !important;
+
+    .border-top {
+        border-top: 2px solid white !important;
+    }
+
+    .border-bottom {
+        border-bottom: 2px solid white !important;
+    }
+
+    .border-start {
+        border-left: 2px solid white !important;
+    }
+
+    .border-end {
+        border-right: 2px solid white !important;
+    }
+
+    .border {
+        border: 2px solid white !important;
+    }
+}
+
+hr {
+    border: 2px solid white !important;
+    opacity: 1 !important;
+}
+
+/* Font */
+.font-title {
+    font-family: 'Unbounded' !important;
+}
+
+.tab-opacity {
+    opacity: 0.3 !important;
+    background: linear-gradient(91deg, #C6F1F7 -4.01%, #F983E9 36.14%, #B877FF 77.44%, #C2E9CD 106.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-gradient {
+    background: linear-gradient(91deg, #C6F1F7 -4.01%, #F983E9 36.14%, #B877FF 77.44%, #C2E9CD 106.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f-6 {
+    font-size: 6px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+/* ~~~~~~~ */
+.spacing {
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -9.6px;
+}
+
+/* Extra margin for 2023 font */
+.mt-30 {
+    margin-top: 30vh !important;
+}
+
+
+.menu-transparent {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Images */
+#home {
+    background-image: url('img/home-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#get-started {
+    background-image: url('img/get-started-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-01 {
+    background-image: url('img/picture-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-02 {
+    background-image: url('img/picture-02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-03 {
+    background-image: url('img/picture-03.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-04 {
+    background-image: url('img/picture-04.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-1a {
+    background-image: url('img/slide-1a.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-1b {
+    background-image: url('img/slide-1b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-2a {
+    background-image: url('img/slide-2a.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-2b {
+    background-image: url('img/slide-2b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-3a {
+    background-image: url('img/slide-3a.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab-3b {
+    background-image: url('img/slide-3b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background Colors */
+.bg-since {
+    background-color: #202020;
+}
+
+/* Tabs */
+#tab-1, #tab-2, #tab-3 {
+    cursor: pointer;
+}
+
+/* Carousel */
+.prev, .next {
+    font-size: 30px;
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.w-54 {
+    width: 54%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.carousel-button {
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+}
+
+.current {
+    content: url("img/current-tab.svg");
+}
+
+.tab-link {
+    cursor: pointer;
+}
+
+/* Media query */
+#home-2 {
+    display: none;
+}
+
+#footer-sm {
+    display: none;
+}
+
+#expertise-2 {
+    display: none;
+}
+
+#get-started-2 {
+    display: none;
+}
+
+#about-us-2 {
+    display: none;
+}
+
+.link-btn-2 {
+    display: none;
+}
+
+.get-started-section-2 {
+    display: none;
+}
+
+.do-title-2 {
+    display: none;
+}
+
+.tab1-sm {
+    display: none;
+}
+
+.tab2-sm {
+    display: none;
+}
+
+.tab3-sm {
+    display: none;
+}
+
+/* Media query for 430px */
+@media only screen and (max-width: 430px) {
+    #home-2 {
+        display: inline-block;
+        background-image: url('img/home-background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #footer-sm {
+        display: inline-block;
+    }
+
+    #footer-lg {
+        display: none;
+    }
+
+    #expertise-2 {
+        display: inline-block;
+    }
+
+    #expertise {
+        display: none;
+    }
+
+    #view-btn {
+        display: none;
+    }
+
+    #get-started-2 {
+        display: inline-block;
+        background-image: url('img/get-started-background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #get-started {
+        display: none;
+    }
+
+    #about-us-2 {
+        display: inline-block;
+    }
+
+    #about-us {
+        display: none;
+    }
+
+    .link-btn-2 {
+        display: inline-block;
+    }
+
+    .link-btn {
+        display: none;
+    }
+
+    .get-started-section-2 {
+        display: inline-block;
+    }
+
+    .get-started-section {
+        display: none;
+    }
+
+    .tab-1a, .tab-1b, .tab-2a, .tab-2b, .tab-3a, .tab-3b {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .do-title-2 {
+        display: inline-block;
+    }
+
+    .do-title {
+        display: none;
+    }
+
+    .tab1-sm {
+        display: inline-block;
+    }
+
+    .tab1-lg {
+        display: none;
+    }
+
+    .tab2-sm {
+        display: inline-block;
+    }
+
+    .tab2-lg {
+        display: none;
+    }
+
+    .tab3-sm {
+        display: inline-block;
+    }
+
+    .tab3-lg {
+        display: none;
+    }
+}
